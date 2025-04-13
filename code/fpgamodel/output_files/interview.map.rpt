@@ -1,5 +1,5 @@
 Analysis & Synthesis report for interview
-Sun Apr 13 21:14:17 2025
+Sun Apr 13 23:50:23 2025
 Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Sun Apr 13 21:14:17 2025              ;
+; Analysis & Synthesis Status        ; Failed - Sun Apr 13 23:50:23 2025              ;
 ; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
 ; Revision Name                      ; interview                                      ;
 ; Top-level Entity Name              ; quadra_tb                                      ;
@@ -164,7 +164,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
-    Info: Processing started: Sun Apr 13 21:14:03 2025
+    Info: Processing started: Sun Apr 13 23:50:05 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off interview -c interview
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -185,8 +185,8 @@ Error (10119): Verilog HDL Loop Statement error at quadra_tb.sv(55): loop with n
 Error (12153): Can't elaborate top-level user hierarchy
 Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 1 warning
     Error: Peak virtual memory: 340 megabytes
-    Error: Processing ended: Sun Apr 13 21:14:17 2025
-    Error: Elapsed time: 00:00:14
-    Error: Total CPU time (on all processors): 00:00:21
+    Error: Processing ended: Sun Apr 13 23:50:23 2025
+    Error: Elapsed time: 00:00:18
+    Error: Total CPU time (on all processors): 00:00:24
 
 

@@ -13,9 +13,9 @@
 #define DBG_TST 0
 #endif
 
-#include <ac_int.h>
-#include <ac_fixed.h>
-#include <ac_float.h>
+#include </home/user/Documents/intel_interview_mycode/code/c_types/ac_types/include/ac_int.h>
+#include </home/user/Documents/intel_interview_mycode/code/c_types/ac_types/include/ac_fixed.h>
+#include </home/user/Documents/intel_interview_mycode/code/c_types/ac_types/include/ac_float.h>
 
 // --------------------------------------------------------------------------------
 const double ERR_TOL = 2.150e-6; // approximation error must be below this value

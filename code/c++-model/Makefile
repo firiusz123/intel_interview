@@ -1,6 +1,6 @@
 # Makefile
 
-SHELL        := /bin/tcsh
+SHELL        := /bin/bash
 ROOT_DIR     := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 TOP_DIR     = ${ROOT_DIR}/..
@@ -8,6 +8,7 @@ TOP_DIR     = ${ROOT_DIR}/..
 ACT_INC_DIR = $(TOP_DIR)/libs/ac_types/include
 
 TGT_SRC_DIR = .
+
 TGT_INC_DIR = .
 TGT_OUT     = .
 
